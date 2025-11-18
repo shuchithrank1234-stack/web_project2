@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+nav a {
+    margin-right: 15px;
+    padding: 8px 12px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #0056b3;
+}
+
+.table-style {
+    width: 50%;
+    background: white;
+    border-collapse: collapse;
+}
+
+.table-style th, .table-style td {
+    padding: 10px;
+}
+.photo-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.photo-section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007BFF;
+}
